@@ -73,7 +73,7 @@ firstLaunch=false
 ✔ Each player must **click "Join Game"** themselves. The button hides **only for the player who clicked it**.
 
 ## 📜 License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+This project is licensed under the **GPL-3.0 license**. See [LICENSE](LICENSE) for details.
 
 ## 🔮 Future Features
 - 🔥 **Voice Chat Integration** – Talk to players in the lobby.
@@ -84,4 +84,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 Pull requests are welcome! If you find a bug or have a feature request:  
 📌 **Open an issue** on GitHub. Fork the repo, make changes, and submit a pull request.
 
-🌟 **Credits** Developed by Alan Martin & contributors. Inspired by the **Mario Kart Arcade GP DX** community. 🚀
+🌟 **Credits** Developed by Alan Martin. Inspired by the **Mario Kart Arcade GP DX** community. 🚀
