@@ -1,7 +1,7 @@
 # MKDX Local Network Lobby
 
 ## 🎮 About
-MKDX Local Network Lobby is a simple **local multiplayer lobby system** for Mario Kart DX. It allows players to **host** or **join a game** over a LAN connection and manage their **game settings** with an easy-to-use UI.
+MKDX Local Network Lobby is a simple **local multiplayer lobby system** for MKDX Arcade. It allows players to **host** or **join a game** over a LAN connection and manage their **game settings** with an easy-to-use UI.
 
 ## 🚀 Features
 - **Local Multiplayer Lobby** – Players can join and create games on the same network.
@@ -24,11 +24,6 @@ MKDX Local Network Lobby is a simple **local multiplayer lobby system** for Mari
    ```sh
    npm start
    ```
-Note you will need to add the following images to the asset folder
-
-background.jpg
-icon.png
-mariodxlogo,png
 
 ## 🎮 How to Use
 ### 1️⃣ Setting Up
@@ -89,6 +84,6 @@ This project is licensed under the **GPL-3.0 license**. See [LICENSE](LICENSE) f
 Pull requests are welcome! If you find a bug or have a feature request:  
 📌 **Open an issue** on GitHub. Fork the repo, make changes, and submit a pull request.
 
-🌟 **Credits** Developed by Alan Martin. Inspired by the **Mario Kart Arcade GP DX** community. 🚀
+🌟 **Credits** Developed by Alan Martin. Inspired by the **MKDX** community. 🚀
 
 Disclaimer: This project, MKDX Local Network Lobby, is an unofficial fan project and is not affiliated with, endorsed by, or sponsored by Nintendo. Mario Kart and all related trademarks are owned by Nintendo Co., Ltd. This project does not distribute or include any copyrighted game assets or files. It is intended for personal use and experimentation within the bounds of fair use.
