@@ -90,3 +90,5 @@ Pull requests are welcome! If you find a bug or have a feature request:
 📌 **Open an issue** on GitHub. Fork the repo, make changes, and submit a pull request.
 
 🌟 **Credits** Developed by Alan Martin. Inspired by the **Mario Kart Arcade GP DX** community. 🚀
+
+Disclaimer: This project, MKDX Local Network Lobby, is an unofficial fan project and is not affiliated with, endorsed by, or sponsored by Nintendo. Mario Kart and all related trademarks are owned by Nintendo Co., Ltd. This project does not distribute or include any copyrighted game assets or files. It is intended for personal use and experimentation within the bounds of fair use.
