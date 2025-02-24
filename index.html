@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKDX Multiplayer Lobby</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header-bar">
+            <img src="assets/mariodxlogo.png" alt="MKDX Logo" class="logo">
+            <img id="settingsIcon" src="assets/settings1.JPG" alt="Settings" class="settings-icon">
+        </div>
+
+        <h1>Mario Kart DX Multiplayer Lobby</h1>
+
+        <img id="createGame" class="button host-button" src="assets/buttons/creategame.jpg" alt="Create Game">
+        <img id="joinGame" class="button join-button" src="assets/buttons/joingame.jpg" alt="Join Game" style="display: none;">
+        <img id="readyButton" class="button ready-button" src="assets/buttons/ready.jpg" alt="I'm Ready" style="display: none;">
+        <img id="startGame" class="button start-button" src="assets/buttons/startgame.jpg" alt="Start Game" style="display: none;">
+
+        <h2>Players in Lobby</h2>
+        <ul id="playerList"></ul>
+    </div>
+
+    <div id="settingsMenu" class="settings-menu">
+        <h2>Settings</h2>
+        
+        <label for="settingsPlayerName">Enter Your Name:</label>
+        <input type="text" id="settingsPlayerName" placeholder="Enter name...">
+        
+        <label for="settingsGamePath">Game BAT File:</label>
+        <button id="selectBatFile" class="button">Select Game BAT</button>
+        <p><strong>Game Path:</strong> <span id="settingsGamePath">Not Set</span></p>
+
+        <h3>Instructions</h3>
+        <p>1. Create a <strong>BAT File</strong> and place it in your game directory.</p>
+        <p>2. Set the BAT file path in settings.</p>
+        <p>3. Start the game and have fun!</p>
+
+        <button id="saveSettings" class="save-button">Save Settings</button>
+        <button id="closeSettings" class="close-button">Close</button>
+    </div>
+
+<div id="firstUsePopup" class="popup">
+    <div class="popup-content">
+        <h2>Welcome to MKDX Multiplayer!</h2>
+        <p>Please enter your name and set the BAT file path in the <strong>Settings</strong> menu.</p>
+        <label><input type="checkbox" id="dontShowAgain"> Don't show again</label>
+        <button id="closeFirstUsePopup">OK</button>
+    </div>
+</div>
+    <script src="renderer.js"></script>
+</body>
+</html>
