@@ -24,6 +24,11 @@ MKDX Local Network Lobby is a simple **local multiplayer lobby system** for Mari
    ```sh
    npm start
    ```
+Note you will need to add the following images to the asset folder
+
+background.jpg
+icon.png
+mariodxlogo,png
 
 ## 🎮 How to Use
 ### 1️⃣ Setting Up
