@@ -1,0 +1,14 @@
+# Ignore build files
+build/
+dist/
+# Ignore dependencies (users will install them using package.json)
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs & cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
