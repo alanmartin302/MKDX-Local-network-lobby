@@ -216,7 +216,7 @@ img.button:hover {
 
 /* ✅ Customize Menu Inputs */
 .customize-menu input[type="file"] {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
@@ -231,13 +231,13 @@ img.button:hover {
     background: #009933;
     color: white;
     font-weight: bold;
-    padding: 12px;
+    padding: 5px;
     border: none;
     width: 100%;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 5px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .customize-menu button:hover {

@@ -1,46 +1,47 @@
 {
-  "name": "mkdx-local-multiplayer",
-  "version": "1.0.0",
-  "description": "MKDX Multiplayer Lobby",
-  "main": "main.js",
-  "scripts": {
-    "start": "npx electron .",
-    "package-win": "electron-builder --win msi",
-    "dist": "electron-builder"
-  },
-  "keywords": [],
-  "author": "Alan Martin",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "dgram": "^1.0.1",
-    "fs-extra": "^11.1.1",
-    "socket.io": "^4.7.2",
-    "socket.io-client": "^4.7.2"
-  },
-  "devDependencies": {
-    "electron": "^34.2.0",
-    "electron-builder": "^24.13.3"
-  },
-  "build": {
-    "appId": "com.mkdx.localnetworklobby",
-    "productName": "MKDX Multiplayer Lobby",
-    "directories": {
-      "output": "dist"
+    "name": "mkdx-local-multiplayer",
+    "version": "1.1.0",
+    "description": "MKDX Multiplayer Lobby",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "npx electron .",
+      "package-win": "electron-builder --win msi",
+      "dist": "electron-builder"
     },
-    "win": {
-      "target": [
-        "nsis",
-        "msi"
-      ],
-      "icon": "assets/icon.ico",
-      "artifactName": "${productName}-Setup-${version}.${ext}"
+    "keywords": [],
+    "author": "Alan Martin",
+    "license": "GPL-3.0",
+    "dependencies": {
+      "dgram": "^1.0.1",
+      "fs-extra": "^11.1.1",
+      "socket.io": "^4.7.2",
+      "socket.io-client": "^4.7.2"
     },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "shortcutName": "MKDX Multiplayer Lobby"
+    "devDependencies": {
+      "electron": "^34.2.0",
+      "electron-builder": "^24.13.3"
+    },
+    "build": {
+      "appId": "com.mkdx.localnetworklobby",
+      "productName": "MKDX Multiplayer Lobby",
+      "directories": {
+        "output": "dist"
+      },
+      "win": {
+        "target": [
+          "nsis",
+          "msi"
+        ],
+        "icon": "assets/icon.ico",
+        "artifactName": "${productName}-Setup-${version}.${ext}"
+      },
+      "nsis": {
+        "oneClick": false,
+        "allowToChangeInstallationDirectory": true,
+        "createDesktopShortcut": true,
+        "createStartMenuShortcut": true,
+        "shortcutName": "MKDX Multiplayer Lobby"
+      }
     }
   }
-}
+  
